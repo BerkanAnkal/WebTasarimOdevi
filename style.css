@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    color:white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*MENÜ KISMI*/
+#menu{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#32404e;
+}
+
+#menuSol{
+    padding-top: 12px;
+    padding-left: 3px;
+    font-size: 25px;
+}
+
+#menuSol a{
+    color: white;
+    margin-left: 10px;
+}
+
+#menuSol a:hover{
+    text-decoration: none;
+}
+
+#menuSol i{
+    font-size: 21px;
+}
+
+#menuSol i:hover{
+    color: #e60000;
+    transition: color 0.7s;
+}
+
+.sap{
+    font-weight: 900;
+}
+
+#menuSag{
+    font-size: 20px;
+    padding-top: 17px;
+    padding-right: 60px;
+}
+
+#menuSag a{
+    margin-right: 15px;
+}
+
+#menuSag a:hover i{
+    color: #e60000;
+    transition: color 0.7s;
+}
+#menuSag a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/*SOL KISIM*/
+#sol{
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    background-color:#46596d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    
+}
+
+#sol ul{
+    list-style-type: none;
+}
+
+#sol a{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+#sol a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #3c4c5d;
+    transition: background-color 0.7s;
+}
+
+#sol i{
+    margin-right: 6px;
+    padding-left: 3px;
+}
+
+#sol .ok{
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+#sol .service{
+    padding-left: 30px;
+    margin: 0;
+    background-color: #3c4c5d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sol .service:hover{
+    background-color: #1f66ad;
+}
+
+#sol .serviceOne{
+    background-color: #1f66ad;
+}
+
+#altUl{
+    margin-bottom:68px;
+}
+
+#altUl a{
+    border:none;
+    border-top: 1px solid #66a3ff;
+}
+
+/*SAĞ KISIM*/
+#sagUst{
+    width: 100%;
+    height: 190px;
+    padding-left: 300px;
+}
+
+#sagUst .home{
+    color: #008ae6;
+    font-size: 17px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+#sagUst .home i{
+    color: #008ae6;
+}
+
+#sagUst .space{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#sagUst .space i{
+    color: black;
+}
+
+#sagUst .space .soruIsaret{
+    float: right;
+    color: #008ae6;
+    margin-right: 30px;
+}
+
+#sagUst .all{
+    color: #666666;
+    font-size: 17px;
+    margin-left:17px;
+    margin-top: 10px;
+}
+
+#sagUst input{
+    margin-top: 30px;
+    width: 250px;
+    float: right;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+
+#sagAlt{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 775px;
+    padding-left: 314px;
+}
+
+#sagAlt .col{
+    background-color: white;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#sagAlt .row{
+    margin-right: 10px;
+}
+
+#sagAlt .bos{
+    background-color: #f2f2f2;
+}
+
+#sagAlt .bas{
+    font-size: 21px;
+}
+
+#sagAlt .bas i{
+    color:#008ae6;
+}
+
+#sagAlt .orta{
+    margin-top: 10px;
+    margin-bottom: 18px;
+    color: #666666;
+}
+
+#sagAlt .son i {
+    font-size: 60px;
+    float: left;
+    margin-right: 15px;
+    color:#008ae6;
+}
+
+.son .fa-puzzle-piece{
+    color: black!important;
+}
